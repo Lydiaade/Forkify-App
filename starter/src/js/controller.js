@@ -150,10 +150,11 @@ const showRecipe = async function () {
           </a>
         </div>
     `;
-    recipeContainer.insertHTML = '';
+    recipeContainer.innerHTML = '';
     recipeContainer.insertAdjacentHTML('afterbegin', markup);
   } catch (err) {
     console.error(err);
   }
 };
+
 showRecipe();
