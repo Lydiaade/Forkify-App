@@ -1,15 +1,21 @@
 {
   "name": "forkify",
   "version": "1.0.0",
-  "description": "Recippe application",
-  "main": "index.js",
+  "description": "Recipe application",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
-    "url": "Forkify-App"
+    "url": "https://github.com/Lydiaade/Forkify-App"
   },
-  "author": "Lydia",
-  "license": "ISC"
+  "author": "Lydia Adejumo",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
 }
